@@ -2,10 +2,6 @@
   padding: 0.25rem 0.25rem;
 }
 
-/* .schedule-table .schedule__break {
-  background-color: hsl(var(--white-4-hsl));
-} */
-
 .schedule-table > tbody > tr > td:first-child {
   min-width: 13ch;
   width: 7%;
