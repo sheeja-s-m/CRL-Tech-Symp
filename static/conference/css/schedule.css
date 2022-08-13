@@ -1,0 +1,71 @@
+.table > :not(caption) > * > * {
+  padding: 0.25rem 0.25rem;
+}
+
+/* .schedule-table .schedule__break {
+  background-color: hsl(var(--white-4-hsl));
+} */
+
+.schedule-table > tbody > tr > td:first-child {
+  min-width: 13ch;
+  width: 7%;
+  text-align: center;
+}
+.schedule-table > tbody > tr > td:not(first-child) {
+  width: 31%;
+}
+
+.poster-schedule > tbody > tr > td:nth-child(odd) {
+  text-align: center;
+}
+.poster-schedule > tbody > tr > td:nth-child(even) {
+  width: 31%;
+}
+
+.schedule-table .session-1 {
+  background-color: hsl(var(--grape-1-hsl));
+}
+
+.schedule-table .session-2 {
+  background-color: hsl(var(--indigo-1-hsl));
+}
+
+.schedule-table .session-3 {
+  background-color: hsl(var(--violet-1-hsl));
+}
+
+.schedule-table .session-4 {
+  background-color: hsl(var(--indigo-1-hsl));
+}
+
+.schedule-table .session-5 {
+  background-color: hsl(var(--violet-1-hsl));
+}
+
+.schedule-table .session-6 {
+  background-color: hsl(var(--grape-1-hsl));
+}
+
+.schedule-table .session-7 {
+  background-color: hsl(var(--violet-1-hsl));
+}
+
+.schedule-table .session-8 {
+  background-color: hsl(var(--grape-1-hsl));
+}
+
+.schedule-table .session-9 {
+  background-color: hsl(var(--indigo-1-hsl));
+}
+
+.schedule-table .invited-talk {
+  background-color: hsl(var(--green-1-hsl));
+}
+
+.poster-schedule .session-1 {
+  background-color: hsl(var(--grape-1-hsl));
+}
+
+.poster-schedule .session-2 {
+  background-color: hsl(var(--red-1-hsl));
+}

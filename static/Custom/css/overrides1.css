@@ -1,0 +1,72 @@
+.dt-buttons {
+  margin-left: 200px;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.dataTables_filter{
+  margin-bottom: 10px;
+}
+label[for='id_is_author'],
+label[for='id_is_delegate'] {
+  display: inline-flex;
+  gap: var(--size-3, 1rem);
+  align-items: center;
+  align-self: flex-start;
+}
+
+.stat-item {
+  background-color: hsl(var(--indigo-7-hsl));
+  color: hsl(var(--gray-0-hsl));
+}
+
+.total-papers {
+  background-color: hsl(var(--violet-7-hsl));
+}
+
+.accepted-presentation {
+  background-color: hsl(var(--green-7-hsl));
+}
+
+.accepted-poster {
+  background-color: hsl(var(--green-5-hsl));
+}
+
+.not-accepted {
+  background-color: hsl(var(--red-7-hsl));
+}
+
+#papertable tbody > tr > td > button {
+  place-items: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: var(--size-1);
+  grid-row-gap: var(--size-1);
+  margin: 0 auto;
+  display: block;
+}
+
+
+#papertable tbody > tr > td > button+button {
+  margin-top: 2px;
+}
+
+/* Browser specific (not valid) styles to make preformatted text wrap */
+.paper-comments {
+  font-family: monospace;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+#loggedin-author-instruction ol > li {
+  padding-left: 0.5rem;
+}

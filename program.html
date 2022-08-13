@@ -1,22 +1,81 @@
-<table class="my-5 table table-bordered border-dark align-middle schedule-table">
-    <tbody>
-        <tr>
-            <td colspan="4" class="fw-bold">Day 1: 18.08.2022 (Thursday)</td>
-        </tr>
-        <tr>
-            <td>09:00 - 09:30</td>
-            <td colspan="3">Symposium Registration - Authors and Delegates</td>
-        </tr>
-        <tr class="fw-bold text-center">
-            <td>09:30 - 11:00</td>
-            <td colspan="3">
-                <p>Symposium Inauguration - Sir M Visvesvaraya Auditorium</p>
-                <p>Address by Directors and CMD BEL, Key Note Address by Dr. B K Das DG(ECS) DRDO</p>
-            </td>
-        </tr>
-        <tr class="schedule__break">
-            <td>11:00 - 11:30</td>
-            <td colspan="3" class="text-center">HIGH TEA</td>
-        </tr>
-       </tbody>
-       </table>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="static/Custom/img/favicon.png">
+    <title>
+            CRL Technical Symposium 2022
+    </title>
+    <link rel="stylesheet" href="static/bootstrap-5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/conference/css/base1.css">
+    <link rel="stylesheet" href="{% static 'conference/css/schedule.css' %}">
+
+</head>
+<body>
+    <header>
+        <nav class="py-2 px-2 px-lg-4 shadow-sm">
+            <ul class="d-flex flex-wrap justify-content-between justify-content-lg-end align-items-center flex-grow-1 flex-lg-grow-0" role="list">
+                <li class="nav__link"><a href="">Home</a></li>
+                <li class="nav__link"><a href="">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="d-flex flex-column">
+        <section class="d-flex flex-column gap-4 px-2 px-lg-4 py-2 py-lg-4 conf-banner">
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                <img class="org-logo" src="{% static 'conference/img/bel_logo_white_cropped.png' %}" alt="BEL Logo" width="256">
+                <div class="d-flex flex-column text-center text-lg-end conf__title">
+                    <h1>CRL Technical Symposium - 2022</h1>
+                    <h2>"Technologies for Next Generation Defense Electronics"</h2>
+                    <h3>August 18-19, BAE (NALANDA), Bangalore</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5">
+            <h2 class="text-center my-2">CRL Technical Symposium - 2022, BAE (NALANDA)</h2>
+            <h4 class="text-center my-2">Programme Schedule: 18th &amp; 19th August 2022</h4>
+            {% include 'conference/_detailed-schedule-table.html' %}
+        </section>
+
+   
+        <table class="my-5 table table-bordered border-dark align-middle schedule-table">
+            <tbody>
+                <tr>
+                    <td colspan="4" class="fw-bold">Day 1: 18.08.2022 (Thursday)</td>
+                </tr>
+                <tr>
+                    <td>09:00 - 09:30</td>
+                    <td colspan="3">Symposium Registration - Authors and Delegates</td>
+                </tr>
+                <tr class="fw-bold text-center">
+                    <td>09:30 - 11:00</td>
+                    <td colspan="3">
+                        <p>Symposium Inauguration - Sir M Visvesvaraya Auditorium</p>
+                        <p>Address by Directors and CMD BEL, Key Note Address by Dr. B K Das DG(ECS) DRDO</p>
+                    </td>
+                </tr>
+                <tr class="schedule__break">
+                    <td>11:00 - 11:30</td>
+                    <td colspan="3" class="text-center">HIGH TEA</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+    </main>
+
+    <footer class="py-2 px-2 px-lg-4">
+        <p>
+            Developed by CDA Group, CRL-BEL, Bangalore © 2022 All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="static/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
