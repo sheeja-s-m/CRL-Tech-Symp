@@ -3,19 +3,21 @@
 }
 
 .schedule-table > tbody > tr > td:first-child {
-  min-width: 13ch;
-  width: 7%;
+  /* min-width: 13ch;
+  width: 7%; */
   text-align: center;
 }
+
 .schedule-table > tbody > tr > td:not(first-child) {
-  width: 31%;
+  /* width: 31%; */
 }
 
 .poster-schedule > tbody > tr > td:nth-child(odd) {
   text-align: center;
 }
+
 .poster-schedule > tbody > tr > td:nth-child(even) {
-  width: 31%;
+  /* width: 31%; */
 }
 
 .schedule-table .session-1 {
