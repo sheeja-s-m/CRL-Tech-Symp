@@ -56,6 +56,18 @@
   background-color: hsl(var(--indigo-1-hsl));
 }
 
+.schedule-table .session-10 {
+  background-color: hsl(var(--grape-1-hsl));
+}
+
+.schedule-table .session-11 {
+  background-color: hsl(var(--indigo-1-hsl));
+}
+
+.schedule-table .session-12 {
+  background-color: hsl(var(--violet-1-hsl));
+}
+
 .schedule-table .invited-talk {
   background-color: hsl(var(--green-1-hsl));
 }
