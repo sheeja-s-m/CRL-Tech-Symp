@@ -79,3 +79,9 @@
 .poster-schedule .session-2 {
   background-color: hsl(var(--red-1-hsl));
 }
+
+.poster-schedule .session-3 {
+  background-color: hsl(var(--indigo-1-hsl));
+}
+
+
