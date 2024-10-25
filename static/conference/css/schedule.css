@@ -72,6 +72,10 @@
   background-color: hsl(var(--green-1-hsl));
 }
 
+.poster-schedule {
+  scroll-margin-top: 4rem;
+}
+
 .poster-schedule .session-1 {
   background-color: hsl(var(--grape-1-hsl));
 }
