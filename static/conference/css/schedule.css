@@ -33,19 +33,19 @@
 }
 
 .schedule-table .session-1 {
-  background-color: hsl(var(--grape-1-hsl));
+  background-color: hsl(var(--indigo-1-hsl));
 }
 
 .schedule-table .session-2 {
-  background-color: hsl(var(--indigo-1-hsl));
-}
-
-.schedule-table .session-3 {
   background-color: hsl(var(--violet-1-hsl));
 }
 
+.schedule-table .session-3 {
+  background-color: hsl(var(--orange-1-hsl));
+}
+
 .schedule-table .session-4 {
-  background-color: hsl(var(--indigo-1-hsl));
+  background-color: hsl(var(--cyan-1-hsl));
 }
 
 .schedule-table .session-5 {
@@ -53,23 +53,23 @@
 }
 
 .schedule-table .session-6 {
-  background-color: hsl(var(--grape-1-hsl));
+  background-color: hsl(var(--orange-1-hsl));
 }
 
 .schedule-table .session-7 {
-  background-color: hsl(var(--violet-1-hsl));
+  background-color: hsl(var(--cyan-1-hsl));
 }
 
 .schedule-table .session-8 {
-  background-color: hsl(var(--grape-1-hsl));
-}
-
-.schedule-table .session-9 {
   background-color: hsl(var(--indigo-1-hsl));
 }
 
+.schedule-table .session-9 {
+  background-color: hsl(var(--orange-1-hsl));
+}
+
 .schedule-table .session-10 {
-  background-color: hsl(var(--grape-1-hsl));
+  background-color: hsl(var(--cyan-1-hsl));
 }
 
 .schedule-table .session-11 {
@@ -104,5 +104,3 @@
 .poster-schedule .session-3 {
   background-color: hsl(var(--indigo-1-hsl));
 }
-
-
